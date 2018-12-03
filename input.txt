@@ -1,0 +1,24 @@
+prints
+read 0x20 M0
+read 20 M1
+read 0xFF m3
+write M0
+prints
+move m3 R2
+move r2 m4
+add r2 m3
+move m3 m4
+move m3 R2
+add m3 r3
+prints
+sub m3 r3
+prints
+mult m3 r3
+prints
+mult r3 m0
+prints
+div m3 r3
+comp r0 m3
+prints
+
+
